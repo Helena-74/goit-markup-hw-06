@@ -684,7 +684,7 @@ transition: transform 300ms linear opacity 300ms linear;
 
 .icon-social {
 }
-
+/*-------- Footer subscribe --------*/
 .footer-subscribe{
   display: flex;
   flex-direction: column;
@@ -717,6 +717,7 @@ transition: transform 300ms linear opacity 300ms linear;
   border-color: var(--main-text-color);
 }
 .button-sub-text {
+  
   font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -725,10 +726,10 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 outline: transparent;
-
 }
 
 .button-subscribe {
+
   width: 165px;
   height: 40px;
   display: flex;
@@ -736,7 +737,6 @@ outline: transparent;
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  gap: 16px;
   
   margin-left: 24px;
   color: var(--main-text-color);
@@ -749,7 +749,9 @@ outline: transparent;
   background-color: var(--main-btn-color);
 }
 .subscribe-icon{
-  color: var(--main-text-color);
+  margin-left: 16px;
+  color-: var(--main-text-color);
+  
 }
 /*Modal window*/
 .backdrop {
