@@ -685,6 +685,72 @@ transition: transform 300ms linear opacity 300ms linear;
 .icon-social {
 }
 
+.footer-subscribe{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.subscribe-text {
+  
+  
+}
+.subscribe-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  letter-spacing: 0.04em;
+  width: 264px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-input:is(:hover,:focus) {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: var(--main-text-color);
+  border-color: var(--main-text-color);
+}
+.button-sub-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+outline: transparent;
+
+}
+
+.button-subscribe {
+  width: 165px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  
+  margin-left: 24px;
+  color: var(--main-text-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: var(--accent-color);
+  border-radius: 4px;
+  outline: transparent;
+}
+.button-subscribe:is(:hover,:focus) {
+  background-color: var(--main-btn-color);
+}
+.subscribe-icon{
+  color: var(--main-text-color);
+}
 /*Modal window*/
 .backdrop {
   position: fixed;
@@ -764,7 +830,7 @@ transition: transform 300ms linear opacity 300ms linear;
 color: var(--main-btn-color);
 font-size: 14px;
 }
-.modal-input:focus, :hover {
+.modal-input:focus {
   border-color: var(--accent-color);
   outline: transparent;
 }
@@ -774,7 +840,7 @@ font-size: 14px;
   /*fill: currentColor;*/
   /*transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
-.modal-input:is(:hover,:focus) + .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: var(--accent-color);
 }
 /*.input-wrap:is(:hover,:focus) {
@@ -811,7 +877,7 @@ color: var(--text-company-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
-.modal-comment:is(:hover,:focus) {
+.modal-comment:focus {
   border: 1px solid var(--accent-color);
   outline: transparent;
 }
@@ -850,9 +916,9 @@ color: var(--text-company-color);
   background-color: var(--main-btn-color);
 }*/
 .privacy {
-  color: currentColor;
+
 }
-.privacy:is(:hover, :focus) {
+.privacy:focus {
   color: var(--accent-color);
 }
 .button-modal {
