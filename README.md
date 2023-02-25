@@ -19,4 +19,6 @@ https://fonts.google.com/share?selection.family=Roboto:wght@400;500;700;900
 
  color: #212121
 
-   
+   display: flex;
+  align-items: center;
+  justify-content: center;
