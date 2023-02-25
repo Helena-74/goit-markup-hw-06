@@ -16,3 +16,5 @@ https://fonts.google.com/share?selection.family=Roboto:wght@400;500;700;900
 Нормалайз - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
  cubic-bezier(0.4, 0, 0.2, 1)
+
+ color: #212121
